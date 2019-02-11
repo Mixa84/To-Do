@@ -1,10 +1,11 @@
 ☐ Fix number of confirmations in CCDuration
 ☐ Check RPC inputs on tokenbalance and others for valid data (like pubkeys,length, sane amount ...)
 ☐ Normalize oracle register and subscribe to have input in same denomination (now register satoshi, subscribe coins)
-✔ Finish Gateways validation @done(19-02-05 11:52)
 ☐ Check if channel with 0 funds should be able to create Close tx
 ☐ Switch channelsCC to LogPrint
+☐ Implement GatewaysExactAmount
 Archive:
+  ✔ Finish Gateways validation @done(19-02-05 11:52)
   ✔ Fix confirmation number for isCCTxNotarizedConfirmed @done (11/14/2018, 5:02:07 PM)
   ✘ Check GatewaysWithdraw bug from TonyL @cancelled (12/17/2018, 6:01:17 PM)
   ✘ Find bug in oraclefeed for multisig (gateways fix strcpy(depositaddr,CBitcoinAddress(CScriptID(GetScriptForMultisig(M,pubkeys))).ToString().c_str())) @cancelled (1/2/2019, 10:44:08 PM)
