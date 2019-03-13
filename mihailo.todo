@@ -1,9 +1,14 @@
+Other:
 ☐ Fix number of confirmations in CCDuration
 ☐ Check RPC inputs on tokenbalance and others for valid data (like pubkeys,length, sane amount ...)
+Oracles:
 ☐ Normalize oracle register and subscribe to have input in same denomination (now register satoshi, subscribe coins)
+Channels:
+☐ Switch channelsCC to LOGSTREAM
 ☐ Check if channel with 0 funds should be able to create Close tx
-☐ Switch channelsCC to LogPrint
+Gateways:
 ☐ Implement GatewaysExactAmount
+☐ Default overwinter for sapling chains in orcalefeed
 Archive:
   ✔ Free all conds in FinalizeCCTx @done(19-03-12 13:14)
   ✔ Finish Gateways validation @done(19-02-05 11:52)
