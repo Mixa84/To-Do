@@ -4,13 +4,15 @@ Other:
 Oracles:
 ☐ Normalize oracle register and subscribe to have input in same denomination (now register satoshi, subscribe coins)
 Channels:
-✔ Switch channelsCC to LOGSTREAM @done(19-03-28 16:00)
+☐ Modify vin checking for big inputs
 ☐ Check if channel with 0 funds should be able to create Close tx
-✔ Switch to srcpub in ChannelsClose and ChannelsRefund @done(19-03-28 16:01)
 Gateways:
+✔ Modify vin checking for big inputs @done(19-04-18 13:10)
 ☐ Implement GatewaysExactAmount
 ☐ Default overwinter for sapling chains in orcalefeed
 Archive:
+  ✔ Switch to srcpub in ChannelsClose and ChannelsRefund @done(19-03-28 16:01)
+  ✔ Switch channelsCC to LOGSTREAM @done(19-03-28 16:00)
   ✔ Free all conds in FinalizeCCTx @done(19-03-12 13:14)
   ✔ Finish Gateways validation @done(19-02-05 11:52)
   ✔ Fix confirmation number for isCCTxNotarizedConfirmed @done (11/14/2018, 5:02:07 PM)
