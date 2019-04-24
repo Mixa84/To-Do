@@ -1,15 +1,17 @@
 Other:
-☐ Fix number of confirmations in CCDuration
-☐ Check RPC inputs on tokenbalance and others for valid data (like pubkeys,length, sane amount ...)
+  ☐ Fix number of confirmations in CCDuration
+  ☐ Check RPC inputs on tokenbalance and others for valid data (like pubkeys,length, sane amount ...)
 Oracles:
-☐ Normalize oracle register and subscribe to have input in same denomination (now register satoshi, subscribe coins)
+  ☐ Normalize oracle register and subscribe to have input in same denomination (now register satoshi, subscribe coins)
 Channels:
-☐ Modify vin checking for big inputs
-☐ Check if channel with 0 funds should be able to create Close tx
+  ☐ Modify vin checking for big inputs
+  ☐ Check if channel with 0 funds should be able to create Close tx
 Gateways:
-✔ Modify vin checking for big inputs @done(19-04-18 13:10)
-☐ Implement GatewaysExactAmount
-☐ Default overwinter for sapling chains in orcalefeed
+  ☐ Find a way to have parallel gateway withdraw  
+  ☐ Implement GatewaysExactAmount
+  ☐ Default overwinter for sapling chains in orcalefeed
+  ✔ Defragment utxos in deposit address @done(19-04-24 12:20)
+  ✔ Modify vin checking for big inputs @done(19-04-18 13:10)
 Archive:
   ✔ Switch to srcpub in ChannelsClose and ChannelsRefund @done(19-03-28 16:01)
   ✔ Switch channelsCC to LOGSTREAM @done(19-03-28 16:00)
