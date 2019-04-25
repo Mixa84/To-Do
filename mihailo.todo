@@ -4,7 +4,7 @@ Other:
 Oracles:
   ☐ Normalize oracle register and subscribe to have input in same denomination (now register satoshi, subscribe coins)
 Channels:
-  ☐ Modify vin checking for big inputs
+  ✔ Modify vin checking for big inputs @done(19-04-24 17:31)
   ☐ Check if channel with 0 funds should be able to create Close tx
 Gateways:
   ☐ Find a way to have parallel gateway withdraw  
