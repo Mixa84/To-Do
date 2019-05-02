@@ -1,6 +1,8 @@
 Other:
   ☐ Fix number of confirmations in CCDuration
   ☐ Check RPC inputs on tokenbalance and others for valid data (like pubkeys,length, sane amount ...)
+  ✔ Make earlytxid able to be in first 100 blocks @done(19-05-02 13:03)
+  ☐ Change 10000 to CC_MARKER_VALUE everywhere in my CCs
 Oracles:
   ☐ Normalize oracle register and subscribe to have input in same denomination (now register satoshi, subscribe coins)
 Channels:
@@ -10,6 +12,7 @@ Gateways:
   ☐ Find a way to have parallel gateway withdraw  
   ☐ Implement GatewaysExactAmount
   ☐ Default overwinter for sapling chains in orcalefeed
+  ☐ Check eval code in gateways decode opret
   ✔ Defragment utxos in deposit address @done(19-04-24 12:20)
   ✔ Modify vin checking for big inputs @done(19-04-18 13:10)
 Archive:
