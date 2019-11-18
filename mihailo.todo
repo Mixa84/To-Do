@@ -8,13 +8,23 @@ Oracles:
 Channels:
   ✔ Modify vin checking for big inputs @done(19-04-24 17:31)
   ☐ Check if channel with 0 funds should be able to create Close tx
-Gateways:
-  ☐ Find a way to have parallel gateway withdraw  
+Oraclefeed:
+  ✔ Default overwinter for sapling chains in orcalefeed @done(19-11-05 13:51)
+  ✔ Remote log for oraclefeed @done(19-11-07 15:22)
+  ✔ Submit deposit address balance in oracle to prevent impossible withdraws @done(19-11-07 15:13)
+  ☐ Make withdraw processing happens every 10 seconds and not when there is new block on external chain
+Gateways: 
+  ☐ Make refactor from import gateway 
   ☐ Implement GatewaysExactAmount
-  ☐ Default overwinter for sapling chains in orcalefeed
   ☐ Check eval code in gateways decode opret
   ✔ Defragment utxos in deposit address @done(19-04-24 12:20)
   ✔ Modify vin checking for big inputs @done(19-04-18 13:10)
+ImportGateway:
+  ☐ Make claiming rewards on withdraw and periodic if utxo time more than a month
+  ✔ Check eval code in gateways decode opret @done(19-11-18 17:05)
+  ✔ Withdraw expire time @done(19-11-18 17:02)
+  ✔ Find a way to have parallel gateway withdraw @done(19-11-18 17:02)
+  ✔ Fix withdraw to burn coins instead to importgateways pubkey @done(19-07-19 14:52)
 Archive:
   ✔ Switch to srcpub in ChannelsClose and ChannelsRefund @done(19-03-28 16:01)
   ✔ Switch channelsCC to LOGSTREAM @done(19-03-28 16:00)
