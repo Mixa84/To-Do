@@ -12,7 +12,8 @@ Oraclefeed:
   ✔ Default overwinter for sapling chains in orcalefeed @done(19-11-05 13:51)
   ✔ Remote log for oraclefeed @done(19-11-07 15:22)
   ✔ Submit deposit address balance in oracle to prevent impossible withdraws @done(19-11-07 15:13)
-  ☐ Make withdraw processing happens every 10 seconds and not when there is new block on external chain
+  ✔ Make withdraw processing happens every 1 seconds and not when there is new block on external chain @done(19-11-22 14:13)
+  ☐ Make claiming rewards on withdraw and periodic if utxo time more than a month (for KMD chain)
 Gateways: 
   ☐ Make refactor from import gateway 
   ☐ Implement GatewaysExactAmount
@@ -20,7 +21,6 @@ Gateways:
   ✔ Defragment utxos in deposit address @done(19-04-24 12:20)
   ✔ Modify vin checking for big inputs @done(19-04-18 13:10)
 ImportGateway:
-  ☐ Make claiming rewards on withdraw and periodic if utxo time more than a month
   ✔ Check eval code in gateways decode opret @done(19-11-18 17:05)
   ✔ Withdraw expire time @done(19-11-18 17:02)
   ✔ Find a way to have parallel gateway withdraw @done(19-11-18 17:02)
