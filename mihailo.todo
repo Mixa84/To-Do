@@ -9,15 +9,17 @@ Channels:
   ✔ Modify vin checking for big inputs @done(19-04-24 17:31)
   ☐ Check if channel with 0 funds should be able to create Close tx
 Oraclefeed:
+  ☐ Make claiming rewards on withdraw and periodic if utxo time more than a month (for KMD chain)
+  ☐ Find better way to submit deposit balance faster to oracle
+  ✔ Return block submit to 10 blocks before @done(19-12-09 13:16)
   ✔ Default overwinter for sapling chains in orcalefeed @done(19-11-05 13:51)
   ✔ Remote log for oraclefeed @done(19-11-07 15:22)
   ✔ Submit deposit address balance in oracle to prevent impossible withdraws @done(19-11-07 15:13)
   ✔ Make withdraw processing happens every 1 seconds and not when there is new block on external chain @done(19-11-22 14:13)
-  ☐ Make claiming rewards on withdraw and periodic if utxo time more than a month (for KMD chain)
 Gateways: 
-  ☐ Make refactor from import gateway 
   ☐ Implement GatewaysExactAmount
-  ☐ Check eval code in gateways decode opret
+  ✔ Make refactor from import gateway @done(19-12-02 14:19)
+  ✔ Check eval code in gateways decode opret @done(19-12-02 14:19)
   ✔ Defragment utxos in deposit address @done(19-04-24 12:20)
   ✔ Modify vin checking for big inputs @done(19-04-18 13:10)
 ImportGateway:
