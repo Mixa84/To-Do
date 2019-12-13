@@ -8,9 +8,14 @@ Oracles:
 Channels:
   ✔ Modify vin checking for big inputs @done(19-04-24 17:31)
   ☐ Check if channel with 0 funds should be able to create Close tx
+nSPV:
+  ☐ Find good solution for rpcs which uses privatekey to generate entropy
 Oraclefeed:
   ☐ Make claiming rewards on withdraw and periodic if utxo time more than a month (for KMD chain)
   ☐ Find better way to submit deposit balance faster to oracle
+  ☐ Calculate external tx txfee
+  ☐ Commands for oraclefeed
+  ☐ check connection to daemons
   ✔ Return block submit to 10 blocks before @done(19-12-09 13:16)
   ✔ Default overwinter for sapling chains in orcalefeed @done(19-11-05 13:51)
   ✔ Remote log for oraclefeed @done(19-11-07 15:22)
