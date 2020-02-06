@@ -14,7 +14,7 @@ Oraclefeed:
   ☐ Make claiming rewards on withdraw and periodic if utxo time more than a month (for KMD chain)
   ☐ Find better way to submit deposit balance faster to oracle
   ☐ Calculate external tx txfee
-  ☐ Commands for oraclefeed
+  ☐ Commands for oraclefeed to fetch certain block data or else
   ☐ check connection to daemons
   ✔ Return block submit to 10 blocks before @done(19-12-09 13:16)
   ✔ Default overwinter for sapling chains in orcalefeed @done(19-11-05 13:51)
@@ -23,6 +23,7 @@ Oraclefeed:
   ✔ Make withdraw processing happens every 1 seconds and not when there is new block on external chain @done(19-11-22 14:13)
 Gateways: 
   ☐ Implement GatewaysExactAmount
+  ☐ Way to update signers pubkeys
   ✔ Make refactor from import gateway @done(19-12-02 14:19)
   ✔ Check eval code in gateways decode opret @done(19-12-02 14:19)
   ✔ Defragment utxos in deposit address @done(19-04-24 12:20)
