@@ -1,39 +1,40 @@
 Other:
   ☐ Fix number of confirmations in CCDuration
   ☐ Check RPC inputs on tokenbalance and others for valid data (like pubkeys,length, sane amount ...)
-  ✔ Make earlytxid able to be in first 100 blocks @done(19-05-02 13:03)
   ☐ Change 10000 to CC_MARKER_VALUE everywhere in my CCs
 Oracles:
   ☐ Normalize oracle register and subscribe to have input in same denomination (now register satoshi, subscribe coins)
 Channels:
-  ✔ Modify vin checking for big inputs @done(19-04-24 17:31)
   ☐ Check if channel with 0 funds should be able to create Close tx
 nSPV:
   ☐ Find good solution for rpcs which uses privatekey to generate entropy
+  ☐ Clean up unsused nSPV code as we added remote RPC call
 Oraclefeed:
-  ☐ Make claiming rewards on withdraw and periodic if utxo time more than a month (for KMD chain)
+  ☐ Make claiming rewards on withdraw and periodic if utxo time more than a month (for KMD chain) (this will consolidate utxos too)
   ☐ Find better way to submit deposit balance faster to oracle
   ☐ Calculate external tx txfee
-  ☐ Commands for oraclefeed to fetch certain block data or else
+  ☐ Commands for oraclefeed to fetch certain block data, shutdown and etc.
   ☐ check connection to daemons
-  ✔ Return block submit to 10 blocks before @done(19-12-09 13:16)
-  ✔ Default overwinter for sapling chains in orcalefeed @done(19-11-05 13:51)
-  ✔ Remote log for oraclefeed @done(19-11-07 15:22)
-  ✔ Submit deposit address balance in oracle to prevent impossible withdraws @done(19-11-07 15:13)
-  ✔ Make withdraw processing happens every 1 seconds and not when there is new block on external chain @done(19-11-22 14:13)
+  ☐ locking utxos for withdraw
 Gateways: 
   ☐ Implement GatewaysExactAmount
   ☐ Way to update signers pubkeys
-  ✔ Make refactor from import gateway @done(19-12-02 14:19)
-  ✔ Check eval code in gateways decode opret @done(19-12-02 14:19)
-  ✔ Defragment utxos in deposit address @done(19-04-24 12:20)
-  ✔ Modify vin checking for big inputs @done(19-04-18 13:10)
-ImportGateway:
-  ✔ Check eval code in gateways decode opret @done(19-11-18 17:05)
-  ✔ Withdraw expire time @done(19-11-18 17:02)
-  ✔ Find a way to have parallel gateway withdraw @done(19-11-18 17:02)
-  ✔ Fix withdraw to burn coins instead to importgateways pubkey @done(19-07-19 14:52)
 Archive:
+  ✔ Make earlytxid able to be in first 100 blocks @done(19-05-02 13:03) @project(Other)
+  ✔ Modify vin checking for big inputs @done(19-04-24 17:31) @project(Channels)
+  ✔ Return block submit to 10 blocks before @done(19-12-09 13:16) @project(Oraclefeed)
+  ✔ Default overwinter for sapling chains in orcalefeed @done(19-11-05 13:51) @project(Oraclefeed)
+  ✔ Remote log for oraclefeed @done(19-11-07 15:22) @project(Oraclefeed)
+  ✔ Submit deposit address balance in oracle to prevent impossible withdraws @done(19-11-07 15:13) @project(Oraclefeed)
+  ✔ Make withdraw processing happens every 1 seconds and not when there is new block on external chain @done(19-11-22 14:13) @project(Oraclefeed)
+  ✔ Make refactor from import gateway @done(19-12-02 14:19) @project(Gateways)
+  ✔ Check eval code in gateways decode opret @done(19-12-02 14:19) @project(Gateways)
+  ✔ Defragment utxos in deposit address @done(19-04-24 12:20) @project(Gateways)
+  ✔ Modify vin checking for big inputs @done(19-04-18 13:10) @project(Gateways)
+  ✔ Check eval code in gateways decode opret @done(19-11-18 17:05) @project(ImportGateway)
+  ✔ Withdraw expire time @done(19-11-18 17:02) @project(ImportGateway)
+  ✔ Find a way to have parallel gateway withdraw @done(19-11-18 17:02) @project(ImportGateway)
+  ✔ Fix withdraw to burn coins instead to importgateways pubkey @done(19-07-19 14:52) @project(ImportGateway)
   ✔ Switch to srcpub in ChannelsClose and ChannelsRefund @done(19-03-28 16:01)
   ✔ Switch channelsCC to LOGSTREAM @done(19-03-28 16:00)
   ✔ Free all conds in FinalizeCCTx @done(19-03-12 13:14)
