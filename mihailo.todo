@@ -3,7 +3,7 @@ Other:
   ☐ Check RPC inputs on tokenbalance and others for valid data (like pubkeys,length, sane amount ...)
   ☐ Change 10000 to CC_MARKER_VALUE everywhere in my CCs
 Oracles:
-  ☐ Normalize oracle register and subscribe to have input in same denomination (now register satoshi, subscribe coins)
+  ✔ Normalize oracle register and subscribe to have input in same denomination (now register satoshi, subscribe coins) @done(20-09-30 16:15)
 Channels:
   ☐ Check if channel with 0 funds should be able to create Close tx
 nSPV:
