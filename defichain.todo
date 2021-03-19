@@ -1,5 +1,5 @@
 Questions
 ✔ Does closing order removes orders from DB and in list orders @done(21-03-10 15:37)
-
+☐ Should we make a consensus check does the owner have enoguh balance on tokens when creating order and fillorder
 Tasks
 ☐ 
