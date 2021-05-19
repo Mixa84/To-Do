@@ -1,6 +1,12 @@
 Questions
 ✔ Does closing order removes orders from DB and in list orders @done(21-03-10 15:37)
 ✔ Should we make a consensus check does the owner have enoguh balance on tokens when creating order and fillorder @done(21-04-28 13:19)
+✔ What happens if Add/Sub balance fails in validation.cpp? Is there revert? What is cache.UpdateBalance? @done(21-05-05 21:30)
+☐ Should I delete keys from DB when order/offer/htlc expires, does this creates more data as we keep undo data?
 Tasks
-☐ Check token balance only for supplied address
-☐ Check timeout of 2nd HTLC is less of the first
+✔ Calculate takerFee @done(21-04-29 20:28)
+✔ Multiply overflow on CAmount and orderPrice @done(21-04-29 20:28)
+✔ Check token balance only for supplied address @done(21-04-30 16:37)
+✔ Check timeout of 2nd HTLC is less of the first @done(21-05-05 22:18)
+✔ Add info about amount in HTLC in To Asset @done(21-05-12 11:59)
+✔ Check status of HTLC in unit test @done(21-05-11 17:26)
